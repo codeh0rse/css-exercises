@@ -4,6 +4,9 @@ html, body {
   height: 100%;
 }
 
+* {
+  border: 1px red solid;
+}
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -20,7 +23,37 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 20px;
+  
 }
+
+
+.headerbox {
+  display: flex;
+}
+
+.header {
+  font-weight: 800;
+  margin-right: auto;
+  font-size:18px;
+}
+.iconbox {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.middlebox{
+  display: flex;
+  flex-direction: column;
+  }
+  
+
+.buttonbox {
+  margin-top: 10px;
+}
+
 
 .icon {
   color: royalblue;
